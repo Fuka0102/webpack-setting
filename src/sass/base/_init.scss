@@ -1,0 +1,10 @@
+@use '../global' as global;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: global.$regularFontSize;
+}
+
+img {
+  max-width: 100%;
+}

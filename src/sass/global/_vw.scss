@@ -1,0 +1,4 @@
+$baseWidth: 1920;
+@function vw($pixelsVw) {
+  @return $pixelsVw / $baseWidth * 100vw;
+}
